@@ -5,7 +5,7 @@ Summary:        Dock for the Gnome Shell by micxgx@gmail.com
 Group:          Graphical desktop/GNOME
 License:        GPLv2+
 URL:            https://micheleg.github.io/dash-to-dock
-Source0:        https://github.com/micheleg/dash-to-dock/archive/extensions.gnome.org-v%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/micheleg/dash-to-dock/archive/extensions.gnome.org-v%{version}/dash-to-dock-extensions.gnome.org-v%{version}.tar.gz
 
 BuildArch:      noarch
 
