@@ -1,6 +1,6 @@
 Name:           gnome-shell-extension-dash-to-dock
 Version:        87
-Release:        %mkrel 1
+Release:        1
 Summary:        Dock for the Gnome Shell by micxgx@gmail.com
 Group:          Graphical desktop/GNOME
 License:        GPLv2+
@@ -14,7 +14,7 @@ BuildRequires:  make
 BuildRequires:  sassc
 BuildRequires:  pkgconfig(glib-2.0)
 
-Requires:       gnome-shell-extensions-common >= 44
+Requires:       gnome-shell-extensions-common
 
 %description
 This extension enhances the dash moving it out of the overview and
@@ -31,10 +31,9 @@ to leave the desktop view.
 %install
 %make_install
 
-# Cleanup crap.
+# Remove not needed
 rm -fr %{buildroot}%{_datadir}/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com/{COPYING*,README*,locale,schemas}
 
-# Create manifest for i18n.
 %find_lang %{name} --all-name
 
 %files -f %{name}.lang
