@@ -1,5 +1,5 @@
 Name:           gnome-shell-extension-dash-to-dock
-Version:        100
+Version:        101
 Release:        1
 Summary:        Dock for the Gnome Shell by micxgx@gmail.com
 Group:          Graphical desktop/GNOME
